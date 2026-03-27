@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/smds-hook.sh",
+            "timeout": 60,
+            "async": true,
+            "statusMessage": "Checking for funny exchanges..."
+          }
+        ]
+      }
+    ]
+  }
+}

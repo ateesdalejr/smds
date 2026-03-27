@@ -1,0 +1,21 @@
+{
+  "name": "smds-marketplace",
+  "owner": {
+    "name": "shitmydevsays",
+    "url": "https://shitmydevsays.com"
+  },
+  "metadata": {
+    "description": "Plugins for shitmydevsays.com",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "smds",
+      "description": "Auto-curates and posts funny dev/AI exchanges to shitmydevsays.com",
+      "version": "1.0.0",
+      "source": "./",
+      "license": "MIT",
+      "keywords": ["funny", "quotes", "dev-humor", "shitmydevsays"]
+    }
+  ]
+}

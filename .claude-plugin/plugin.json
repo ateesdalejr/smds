@@ -1,0 +1,22 @@
+{
+  "name": "smds",
+  "version": "1.0.0",
+  "description": "Automatically curates and posts funny dev/AI exchanges to shitmydevsays.com",
+  "author": {
+    "name": "atees",
+    "url": "https://shitmydevsays.com"
+  },
+  "homepage": "https://shitmydevsays.com",
+  "license": "MIT",
+  "keywords": ["funny", "quotes", "dev-humor", "shitmydevsays"],
+
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+
+  "userConfig": {
+    "author_name": {
+      "description": "Your display name on shitmydevsays.com (leave blank for anonymous)",
+      "sensitive": false
+    }
+  }
+}
