@@ -9,7 +9,7 @@
       "name": "smds",
       "description": "Auto-curates and posts funny dev/AI exchanges to shitmydevsays.com",
       "version": "1.0.0",
-      "source": "./",
+      "source": "./plugins/smds",
       "license": "MIT",
       "keywords": ["funny", "quotes", "dev-humor", "shitmydevsays"],
       "homepage": "https://shitmydevsays.com",
