@@ -31,18 +31,20 @@ Every time Claude finishes a response, a background hook quietly scans your conv
 
 ## Install
 
-```bash
-# Add from marketplace
-/plugin marketplace add your-username/smds
+Two commands inside Claude Code:
 
-# Install
+```
+/plugin marketplace add ateesdalejr/smds
 /plugin install smds@smds-marketplace
 ```
 
-Or for local development:
+That's it. The plugin hooks into your sessions automatically.
+
+### Manual / local development
 
 ```bash
-claude --plugin-dir /path/to/smds
+git clone https://github.com/ateesdalejr/smds.git
+claude --plugin-dir ./smds
 ```
 
 ## Usage

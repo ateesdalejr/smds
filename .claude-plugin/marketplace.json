@@ -1,12 +1,8 @@
 {
   "name": "smds-marketplace",
   "owner": {
-    "name": "shitmydevsays",
+    "name": "ateesdalejr",
     "url": "https://shitmydevsays.com"
-  },
-  "metadata": {
-    "description": "Plugins for shitmydevsays.com",
-    "version": "1.0.0"
   },
   "plugins": [
     {
@@ -15,7 +11,9 @@
       "version": "1.0.0",
       "source": "./",
       "license": "MIT",
-      "keywords": ["funny", "quotes", "dev-humor", "shitmydevsays"]
+      "keywords": ["funny", "quotes", "dev-humor", "shitmydevsays"],
+      "homepage": "https://shitmydevsays.com",
+      "repository": "https://github.com/ateesdalejr/smds"
     }
   ]
 }
